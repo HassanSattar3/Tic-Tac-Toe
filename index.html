@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Tic Tac Toe</title>
     
     <!-- PWA manifest -->
@@ -10,28 +10,20 @@
     
     <!-- iOS specific tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Tic Tac Toe">
     
     <!-- iOS icons -->
-    <link rel="apple-touch-icon" href="icons/icon192x192.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="icons/icon192x192.png">
-    <link rel="apple-touch-icon" sizes="512x512" href="icons/icon512x512.png">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512x512.png">
     
     <!-- iOS splash screens -->
-    <!-- iPhone 14 Pro Max (1290x2796) -->
-    <link rel="apple-touch-startup-image" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3)" href="icons/icon512x512.png">
-    <!-- iPhone 14 Pro (1179x2556) -->
-    <link rel="apple-touch-startup-image" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3)" href="icons/icon512x512.png">
-    <!-- iPhone 14 Plus/13 Pro Max (1284x2778) -->
-    <link rel="apple-touch-startup-image" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3)" href="icons/icon512x512.png">
-    <!-- iPhone 14/13 Pro (1170x2532) -->
-    <link rel="apple-touch-startup-image" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3)" href="icons/icon512x512.png">
-    <!-- iPhone 12/13 (1170x2532) -->
-    <link rel="apple-touch-startup-image" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3)" href="icons/icon512x512.png">
+    <link rel="apple-touch-startup-image" media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3)" href="icons/icon-512x512.png">
+    <link rel="apple-touch-startup-image" media="screen and (device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3)" href="icons/icon-512x512.png">
     
-    <!-- Theme color for iOS -->
-    <meta name="theme-color" content="#89CFF0">
+    <!-- Theme color for iOS with color scheme support -->
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     
     <link rel="stylesheet" href="styles.css">
 </head>

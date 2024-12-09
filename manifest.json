@@ -1,10 +1,11 @@
 {
   "name": "Tic Tac Toe",
   "short_name": "TicTacToe",
-  "start_url": "./",
+  "start_url": "/Tic-Tac-Toe/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#89CFF0",
+  "theme_color_dark": "#000000",
+  "theme_color_light": "#ffffff",
   "orientation": "portrait",
   "icons": [
     {
@@ -21,8 +22,6 @@
     }
   ],
   "description": "A Tic Tac Toe game",
-  "scope": "./",
-  "apple-mobile-web-app-capable": "yes",
-  "apple-mobile-web-app-status-bar-style": "black-translucent",
-  "apple-mobile-web-app-title": "Tic Tac Toe"
+  "scope": "/Tic-Tac-Toe/",
+  "apple-touch-icon": "icons/icon192x192.png"
 }
