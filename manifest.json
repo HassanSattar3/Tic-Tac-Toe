@@ -1,12 +1,11 @@
 {
   "name": "Tic Tac Toe",
   "short_name": "TicTacToe",
-  "description": "A fun Tic Tac Toe game",
+  "start_url": "/Tic-Tac-Toe/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
-  "orientation": "portrait-primary",
-  "icons": [
+  "theme_color": "#89CFF0",
+  "orientation": "portrait",
     {
       "src": "icons/icon192x192.png",
       "sizes": "192x192",
@@ -20,29 +19,3 @@
       "purpose": "any maskable"
     }
   ],
-  "shortcuts": [
-    {
-      "name": "New Game",
-      "short_name": "New",
-      "description": "Start a new game",
-      "url": "/?newgame=true",
-      "icons": [{ "src": "icons/icon-192x192.png", "sizes": "192x192" }]
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "screenshots/game.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "platform": "wide",
-      "label": "Gameplay Screenshot"
-    }
-  ],
-  "categories": ["games", "entertainment"],
-  "dir": "ltr",
-  "lang": "en-US",
-  "prefer_related_applications": false,
-  "related_applications": [],
-  "scope": "Tic-Tac-Toe/",
-  "display_override": ["standalone", "fullscreen"]
-} 
