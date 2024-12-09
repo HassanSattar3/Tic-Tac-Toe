@@ -1,7 +1,7 @@
 {
   "name": "Tic Tac Toe",
   "short_name": "TicTacToe",
-  "start_url": "/Tic-Tac-Toe/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#89CFF0",
@@ -21,6 +21,8 @@
     }
   ],
   "description": "A Tic Tac Toe game",
-  "scope": "/Tic-Tac-Toe/",
-  "apple-touch-icon": "icons/icon192x192.png"
+  "scope": "./",
+  "apple-mobile-web-app-capable": "yes",
+  "apple-mobile-web-app-status-bar-style": "black-translucent",
+  "apple-mobile-web-app-title": "Tic Tac Toe"
 }
