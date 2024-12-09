@@ -2,7 +2,6 @@
   "name": "Tic Tac Toe",
   "short_name": "TicTacToe",
   "description": "A fun Tic Tac Toe game",
-  "start_url": "Tic-Tac-Toe/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
@@ -44,6 +43,6 @@
   "lang": "en-US",
   "prefer_related_applications": false,
   "related_applications": [],
-  "scope": "/",
+  "scope": "Tic-Tac-Toe/",
   "display_override": ["standalone", "fullscreen"]
 } 
